@@ -1,0 +1,14 @@
+{
+  "name": "notepadtest-cypress",
+  "version": "1.0.0",
+  "description": "Test framework for notepad-react-ts-cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse M. Porch",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.12.1"
+  }
+}

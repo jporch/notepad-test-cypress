@@ -14,9 +14,9 @@ const testData = {
 }
 
 const postNote = (note) => {
-    cy.get('input[name="name"').type(note.name)
-    cy.get('input[name="email"').type(note.email)
-    cy.get('textarea[name="comment"').type(note.comment)
+    cy.get('input[name="name"]').type(note.name)
+    cy.get('input[name="email"]').type(note.email)
+    cy.get('textarea[name="comment"]').type(note.comment)
     cy.get('button[type="submit"]').click()
 }
 
